@@ -1,0 +1,16 @@
+This code creates a chatbot using Streamlit and Google's Gemini Pro language model.
+
+How it works:
+
+Setting Up:
+
+We import necessary libraries: Streamlit for creating the web app, and Google's Generative AI library to interact with the Gemini Pro model.
+We load our API key from a .env file to securely access the model.
+Creating the Chatbot:
+
+We define a function to send a user's query to the Gemini Pro model and get a response.
+We set up a simple web interface using Streamlit, where the user can input their query.
+When the user submits a query, the code sends it to the Gemini Pro model, receives the response, and displays it on the screen.
+Storing the Conversation:
+
+We keep track of the conversation history, storing both the user's queries and the model's responses. This allows for a more natural and contextually relevant conversation.
